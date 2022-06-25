@@ -1,10 +1,10 @@
 .grid {
-    display: block;
+    display: flexbox;
     justify-content: center;
-    align-content: center; 
-
-    width: 90vh;
-    height: 90vh;
+    align-content: center;
+    position: fixed;
+    width: 80vh;
+    height: 80vh;
     margin-left: 70vh;
 }
 
@@ -15,8 +15,9 @@
     margin-top: 1vh;
     border: 0.5vh solid #BAB6C6;
     box-shadow:
-            rgba(255, 255, 255, 0.42) 0px 60px 123px -25px,
-            rgba(255, 255, 255, 0.332) 0px 35px 75px -35px;
+        rgba(255, 255, 255, 0.42) 0px 60px 123px -25px,
+        rgba(255, 255, 255, 0.332) 0px 35px 75px -35px;
+    vertical-align: middle;
 }
 
 .row {
@@ -25,11 +26,31 @@
 }
 
 h1 {
-    font-size: 5vh;
+    font-size: 7vh;
     font-family: sans-serif;
     text-align: center;
+    /* margin-left: -1vh; */
+    color: white;
 }
 
-body{
+body {
     background-color: #2a2a2a;
+}
+
+#p2 {
+    float: right;
+    margin-right: 12vw;
+    font-size: 6vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+#p1 {
+    float: left;
+    margin-left: 12vw;
+    font-size: 6vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
 }
