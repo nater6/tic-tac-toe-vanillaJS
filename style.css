@@ -14,14 +14,11 @@
     height: 22vh;
     padding: 1vh;
     margin-top: 1vh;
-    border: 0.5vh solid #BAB6C6;
+    border: 0.5vh solid #000000;
     box-shadow:
-            0 0 1vh 2vh rgba(255, 0, 0, 0.088);
-            /* inner white */
-            /* 0 0 1.5vh 3vh rgba(255, 255, 255, 0.173); */
-            /* middle magenta */
-            /* 0 0 140px 90px rgba(212, 113, 0, 0.055); */
-        /* outer cyan */
+    0 0 1vh 2vh rgba(0, 0, 0, 0.088);
+    text-align: center;
+    justify-content: center;
     vertical-align: middle;
 }
 
@@ -38,11 +35,11 @@ h1 {
     font-family: sans-serif;
     text-align: center;
     /* margin-left: -1vh; */
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 body {
-    background-color: #2a2a2a;
+    background-color: #ffffff;
 }
 
 #p2 {
@@ -51,7 +48,7 @@ body {
     font-size: 6vh;
     font-family: sans-serif;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #p1 {
@@ -60,5 +57,5 @@ body {
     font-size: 6vh;
     font-family: sans-serif;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
 }
