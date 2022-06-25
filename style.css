@@ -1,28 +1,36 @@
 .grid {
-    display: flexbox;
     justify-content: center;
     align-content: center;
     position: fixed;
     width: 80vh;
     height: 80vh;
     margin-left: 70vh;
+    /* overflow-y: auto; */
 }
 
 .gridbox {
+    display: inline-flex;
     width: 22vh;
     height: 22vh;
     padding: 1vh;
     margin-top: 1vh;
     border: 0.5vh solid #BAB6C6;
     box-shadow:
-        rgba(255, 255, 255, 0.42) 0px 60px 123px -25px,
-        rgba(255, 255, 255, 0.332) 0px 35px 75px -35px;
+            0 0 1vh 2vh rgba(255, 0, 0, 0.088);
+            /* inner white */
+            /* 0 0 1.5vh 3vh rgba(255, 255, 255, 0.173); */
+            /* middle magenta */
+            /* 0 0 140px 90px rgba(212, 113, 0, 0.055); */
+        /* outer cyan */
     vertical-align: middle;
 }
 
 .row {
-    display: inline-block;
+    /* display: inline-block; */
+    /* position: fixed; */
     /* padding: 1vh; */
+    margin-bottom: 2vh;
+    max-height: inherit;
 }
 
 h1 {
