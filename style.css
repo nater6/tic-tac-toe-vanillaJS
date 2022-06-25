@@ -1,0 +1,35 @@
+.grid {
+    display: block;
+    justify-content: center;
+    align-content: center; 
+
+    width: 90vh;
+    height: 90vh;
+    margin-left: 70vh;
+}
+
+.gridbox {
+    width: 22vh;
+    height: 22vh;
+    padding: 1vh;
+    margin-top: 1vh;
+    border: 0.5vh solid #BAB6C6;
+    box-shadow:
+            rgba(255, 255, 255, 0.42) 0px 60px 123px -25px,
+            rgba(255, 255, 255, 0.332) 0px 35px 75px -35px;
+}
+
+.row {
+    display: inline-block;
+    /* padding: 1vh; */
+}
+
+h1 {
+    font-size: 5vh;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: #2a2a2a;
+}
