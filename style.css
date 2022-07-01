@@ -1,19 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
 .grid {
     justify-content: center;
     align-content: center;
-    position: fixed;
     width: 80vh;
     height: 80vh;
-    margin-left: 70vh;
-    /* overflow-y: auto; */
+    margin-left: 31vw;
+    display: grid;
+    grid-template-columns: 25vh 25vh 25vh;
+    grid-template-rows: 25vh 25vh 25vh;
 }
 
 .gridbox {
     display: inline-flex;
-    width: 22vh;
-    height: 22vh;
-    padding: 1vh;
-    margin-top: 1vh;
+    width: 24vh;
+    height: 24vh;
+    bottom: 10vh;
+    margin: 2vh;
     border: 0.5vh solid #000000;
     box-shadow:
         0 0 1vh 2vh rgba(0, 0, 0, 0.088);
@@ -22,16 +27,8 @@
     vertical-align: middle;
 }
 
-.row {
-    /* display: inline-block; */
-    /* position: fixed; */
-    /* padding: 1vh; */
-    margin-bottom: 2vh;
-    max-height: inherit;
-}
-
 h1 {
-    margin-left: -2vw;
+    /* margin-left: -2vw; */
     font-size: 7vh;
     font-family: sans-serif;
     text-align: center;
@@ -81,5 +78,6 @@ p {
 }
 
 #turn {
-    margin-left: -2vw;
+    /* margin-left: -2vw; */
+    text-align: center;
 }
